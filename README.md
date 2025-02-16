@@ -1,20 +1,58 @@
 # Coin Converter
 
-A web application that allows users to convert between different currencies in real-time. This tool provides an easy-to-use interface for checking current exchange rates and performing currency conversions.
+A comprehensive web application that provides real-time currency conversion services. This user-friendly tool enables users to quickly and accurately convert between different currencies using up-to-date exchange rates.
 
 ## Features
 
 - Real-time currency conversion
-- Support for multiple currencies
-- Simple and intuitive user interface
-- Up-to-date exchange rates
+- Support for multiple currencies worldwide
+- Interactive and responsive design
+- Historical exchange rate data
+- Save favorite currency pairs
+- Mobile-friendly interface
+- Easy-to-use conversion calculator
 
-## Technical Stack
+## How It Works
 
-This project is built using:
-- React with Vite for fast development
-- Modern JavaScript/TypeScript
-- Real-time currency API integration
+1. Select your source currency
+2. Choose your target currency
+3. Enter the amount you want to convert
+4. Get instant conversion results
+5. View historical rate trends (optional)
+
+## Technical Implementation
+
+### Frontend
+- React 18 with TypeScript
+- Vite for fast development and building
+- Styled-components for styling
+- Redux for state management
+- Axios for API calls
+
+### API Integration
+- Real-time exchange rates from reliable currency APIs
+- Automatic rate updates
+- Error handling and fallback mechanisms
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Open `http://localhost:5173` in your browser
+
+## Project Structure
+
+```
+coin-converter/
+├── src/
+│   ├── components/    # React components
+│   ├── services/     # API and business logic
+│   ├── styles/       # Global styles
+│   └── utils/        # Helper functions
+├── public/           # Static assets
+└── docs/            # Documentation
+```
 
 # React + Vite
 
